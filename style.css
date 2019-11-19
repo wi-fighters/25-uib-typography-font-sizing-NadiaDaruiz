@@ -20,17 +20,20 @@ No media query since this is the default in Bootstrap
 
 :root {
     font-size: 150%;
+    border: 2px dashed blue;
 }
 
 @media (min-width: 768px) {
     :root {
         font-size: 120%;
+        border: 3px solid hotpink;
     }
 }
 
 @media (min-width: 992px) {
     :root {
         font-size: 100%;
+        border: 4px dotted orange;
     }
 }
 
